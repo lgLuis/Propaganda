@@ -14,6 +14,10 @@ html {
 }
 
 /*CENTRADO*/
+body{
+    font-family: var(--fuentePpal);
+    font-weight: bold;
+}
 
 .centrado{
     min-height: 100vh;
@@ -34,6 +38,7 @@ html {
     text-align: center;
 }
 .contenido-centrado h1{
+    font-size: 2.7rem;
     color: gold;
     text-transform: uppercase;
     margin: 0;
@@ -62,6 +67,13 @@ html {
     font-size: 2rem;
     text-align: center;
 }
+
+.aviso:hover{
+    background-color: black;
+    color: gold;
+
+}
+
 
 .aviso  span{
     font-size: 3rem;
