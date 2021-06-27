@@ -12,3 +12,68 @@ html {
 :root{
     --fuentePpal:'Viaoda Libre', cursive;;
 }
+
+/*CENTRADO*/
+
+.centrado{
+    min-height: 100vh;
+    background-image: url(/img/mississippi-chicken-.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado > div{
+    flex: 0 0 calc(33% - 3rem);
+}
+.contenido-centrado{
+    color: whitesmoke;
+    text-align: center;
+}
+.contenido-centrado h1{
+    color: gold;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.contenido-centrado p{
+    margin: 0;
+}
+
+.contenido-centrado .ubicacion{
+    font-weight: 900;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #000000;
+
+}
+
+.contenido-centrado .fecha{
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.aviso{
+    background-color: gold;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.aviso  span{
+    font-size: 3rem;
+    display: block;
+}
+
+.arriba{
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.abajo{
+    align-self: flex-end;
+    margin-bottom: 3rem;
+}
